@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [14/May/2021:19:09:49 +0300] "GET / HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [14/May/2021:19:10:01 +0300] "GET /rentalcar HTTP/1.1" 302 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [14/May/2021:19:10:02 +0300] "GET /rentalcar/ HTTP/1.1" 200 5262 http-bio-8080-exec-4 165
+0:0:0:0:0:0:0:1 - - [14/May/2021:19:10:02 +0300] "GET /rentalcar/scripts/script.js HTTP/1.1" 304 - http-bio-8080-exec-5 5
+0:0:0:0:0:0:0:1 - - [14/May/2021:19:10:08 +0300] "POST /rentalcar/controller HTTP/1.1" 200 5292 http-bio-8080-exec-6 720
+0:0:0:0:0:0:0:1 - - [14/May/2021:19:10:22 +0300] "POST /rentalcar/controller HTTP/1.1" 200 20050 http-bio-8080-exec-7 1160
+0:0:0:0:0:0:0:1 - - [14/May/2021:19:10:25 +0300] "GET /rentalcar/controller?command=logout HTTP/1.1" 200 5262 http-bio-8080-exec-8 60

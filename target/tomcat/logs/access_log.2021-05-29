@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [29/May/2021:09:09:56 +0300] "GET /rentalcar HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [29/May/2021:09:09:57 +0300] "GET /rentalcar/ HTTP/1.1" 200 5262 http-bio-8080-exec-3 183
+0:0:0:0:0:0:0:1 - - [29/May/2021:09:09:57 +0300] "GET /rentalcar/scripts/script.js HTTP/1.1" 304 - http-bio-8080-exec-4 17
+0:0:0:0:0:0:0:1 - - [29/May/2021:09:09:57 +0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-5 0

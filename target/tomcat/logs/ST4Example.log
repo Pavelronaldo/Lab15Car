@@ -1,0 +1,26 @@
+2021-05-29 08:57 [DEBUG]                    Locale:    59 - Filter initialization starts
+2021-05-29 08:57 [DEBUG]                    Locale:    63 - Filter initialization ends
+2021-05-29 08:57 [DEBUG]            EncodingFilter:    41 - Filter initialization starts
+2021-05-29 08:57 [TRACE]            EncodingFilter:    43 - Encoding from web.xml --> UTF-8
+2021-05-29 08:57 [DEBUG]            EncodingFilter:    44 - Filter initialization ends
+2021-05-29 08:57 [DEBUG]       CommandAccessFilter:    28 - Filter initialization starts
+2021-05-29 08:57 [TRACE]       CommandAccessFilter:    36 - Access map --> {ADMIN=[updateUserStatus, addManager, deleteCar, updateCar, addCar, adminPanel], CLIENT=[makeOrder, searchCar, orderClientList, payOrder, returnCar], MANAGER=[checkCar, acceptCar, listOrders, treatmentOrder]}
+2021-05-29 08:57 [TRACE]       CommandAccessFilter:    37 - Common commands --> [logout, noCommand, viewSettings, settingsChange, changeLocale]
+2021-05-29 08:57 [TRACE]       CommandAccessFilter:    38 - Out of control commands --> [login, registration, registrationView, loginView]
+2021-05-29 08:57 [DEBUG]       CommandAccessFilter:    39 - Filter initialization ends
+2021-05-29 08:58 [DEBUG]                    Locale:    25 - Filter destruction starts
+2021-05-29 08:58 [DEBUG]                    Locale:    26 - Filter destruction ends
+2021-05-29 08:58 [DEBUG]            EncodingFilter:    18 - Filter destruction starts
+2021-05-29 08:58 [DEBUG]            EncodingFilter:    19 - Filter destruction ends
+2021-05-29 08:58 [DEBUG]       CommandAccessFilter:    61 - Filter destruction starts
+2021-05-29 08:58 [DEBUG]       CommandAccessFilter:    62 - Filter ends
+2021-05-29 09:09 [DEBUG]                    Locale:    59 - Filter initialization starts
+2021-05-29 09:09 [DEBUG]                    Locale:    63 - Filter initialization ends
+2021-05-29 09:09 [DEBUG]            EncodingFilter:    41 - Filter initialization starts
+2021-05-29 09:09 [TRACE]            EncodingFilter:    43 - Encoding from web.xml --> UTF-8
+2021-05-29 09:09 [DEBUG]            EncodingFilter:    44 - Filter initialization ends
+2021-05-29 09:09 [DEBUG]       CommandAccessFilter:    28 - Filter initialization starts
+2021-05-29 09:09 [TRACE]       CommandAccessFilter:    36 - Access map --> {CLIENT=[makeOrder, searchCar, orderClientList, payOrder, returnCar], ADMIN=[updateUserStatus, addManager, deleteCar, updateCar, addCar, adminPanel], MANAGER=[checkCar, acceptCar, listOrders, treatmentOrder]}
+2021-05-29 09:09 [TRACE]       CommandAccessFilter:    37 - Common commands --> [logout, noCommand, viewSettings, settingsChange, changeLocale]
+2021-05-29 09:09 [TRACE]       CommandAccessFilter:    38 - Out of control commands --> [login, registration, registrationView, loginView]
+2021-05-29 09:09 [DEBUG]       CommandAccessFilter:    39 - Filter initialization ends

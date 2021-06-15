@@ -1,0 +1,396 @@
+2021-05-27 08:26 [DEBUG]                    Locale:    59 - Filter initialization starts
+2021-05-27 08:26 [DEBUG]                    Locale:    63 - Filter initialization ends
+2021-05-27 08:26 [DEBUG]            EncodingFilter:    41 - Filter initialization starts
+2021-05-27 08:26 [TRACE]            EncodingFilter:    43 - Encoding from web.xml --> UTF-8
+2021-05-27 08:26 [DEBUG]            EncodingFilter:    44 - Filter initialization ends
+2021-05-27 08:26 [DEBUG]       CommandAccessFilter:    28 - Filter initialization starts
+2021-05-27 08:26 [TRACE]       CommandAccessFilter:    36 - Access map --> {CLIENT=[makeOrder, searchCar, orderClientList, payOrder, returnCar], ADMIN=[updateUserStatus, addManager, deleteCar, updateCar, addCar, adminPanel], MANAGER=[checkCar, acceptCar, listOrders, treatmentOrder]}
+2021-05-27 08:26 [TRACE]       CommandAccessFilter:    37 - Common commands --> [logout, noCommand, viewSettings, settingsChange, changeLocale]
+2021-05-27 08:26 [TRACE]       CommandAccessFilter:    38 - Out of control commands --> [login, registration, registrationView, loginView]
+2021-05-27 08:26 [DEBUG]       CommandAccessFilter:    39 - Filter initialization ends
+2021-05-27 08:30 [DEBUG]                    Locale:    25 - Filter destruction starts
+2021-05-27 08:30 [DEBUG]                    Locale:    26 - Filter destruction ends
+2021-05-27 08:30 [DEBUG]            EncodingFilter:    18 - Filter destruction starts
+2021-05-27 08:30 [DEBUG]            EncodingFilter:    19 - Filter destruction ends
+2021-05-27 08:30 [DEBUG]       CommandAccessFilter:    61 - Filter destruction starts
+2021-05-27 08:30 [DEBUG]       CommandAccessFilter:    62 - Filter ends
+2021-05-27 08:31 [DEBUG]                    Locale:    59 - Filter initialization starts
+2021-05-27 08:31 [DEBUG]                    Locale:    63 - Filter initialization ends
+2021-05-27 08:31 [DEBUG]            EncodingFilter:    41 - Filter initialization starts
+2021-05-27 08:31 [TRACE]            EncodingFilter:    43 - Encoding from web.xml --> UTF-8
+2021-05-27 08:31 [DEBUG]            EncodingFilter:    44 - Filter initialization ends
+2021-05-27 08:31 [DEBUG]       CommandAccessFilter:    28 - Filter initialization starts
+2021-05-27 08:31 [TRACE]       CommandAccessFilter:    36 - Access map --> {MANAGER=[checkCar, acceptCar, listOrders, treatmentOrder], CLIENT=[makeOrder, searchCar, orderClientList, payOrder, returnCar], ADMIN=[updateUserStatus, addManager, deleteCar, updateCar, addCar, adminPanel]}
+2021-05-27 08:31 [TRACE]       CommandAccessFilter:    37 - Common commands --> [logout, noCommand, viewSettings, settingsChange, changeLocale]
+2021-05-27 08:31 [TRACE]       CommandAccessFilter:    38 - Out of control commands --> [login, registration, registrationView, loginView]
+2021-05-27 08:31 [DEBUG]       CommandAccessFilter:    39 - Filter initialization ends
+2021-05-27 08:33 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:33 [TRACE]                    Locale:    37 - Session locale--> null
+2021-05-27 08:33 [TRACE]                    Locale:    41 - Set default locale: en
+2021-05-27 08:33 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:33 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:33 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:33 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:33 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:33 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:33 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:33 [TRACE]              LogInCommand:    30 - Request parameter: login --> lammer2105
+2021-05-27 08:33 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='lammer2105', password='null', idStatus=0, idRole=0, firstName='null', lastName='null', age=0}
+2021-05-27 08:33 [ INFO]         UserDAORepository:    45 - User: User{login='lammer2105', password='null', idStatus=0, idRole=0, firstName='null', lastName='null', age=0}
+2021-05-27 08:33 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:33 [TRACE]                    Locale:    37 - Session locale--> en
+2021-05-27 08:33 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:33 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:33 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:33 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:33 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:33 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:33 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:36 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:36 [TRACE]                    Locale:    37 - Session locale--> en
+2021-05-27 08:36 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:36 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:36 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:36 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:36 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:36 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:36 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:36 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='pavel', password='null', idStatus=0, idRole=0, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:36 [ INFO]         UserDAORepository:    45 - User: User{login='pavel', password='null', idStatus=0, idRole=0, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:36 [ INFO]        UserRepositoryImpl:    52 - Create user: User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:36 [ INFO]         UserDAORepository:   107 - 6 null
+2021-05-27 08:36 [TRACE]              LogInCommand:    30 - Request parameter: login --> pavel
+2021-05-27 08:36 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='pavel', password='null', idStatus=0, idRole=0, firstName='null', lastName='null', age=0}
+2021-05-27 08:36 [ INFO]         UserDAORepository:    45 - User: User{login='pavel', password='null', idStatus=0, idRole=0, firstName='null', lastName='null', age=0}
+2021-05-27 08:36 [TRACE]              LogInCommand:    48 - userRole --> CLIENT
+2021-05-27 08:36 [TRACE]              LogInCommand:    50 - userStatus --> UNBUNNED
+2021-05-27 08:36 [TRACE]              LogInCommand:    68 - Set the session attribute: user --> User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:36 [TRACE]              LogInCommand:    71 - Set the session attribute: userRole --> CLIENT
+2021-05-27 08:36 [ INFO]              LogInCommand:    72 - User User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19} logged as client
+2021-05-27 08:36 [DEBUG]              LogInCommand:    73 - Command finished
+2021-05-27 08:36 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:36 [ INFO]         UserDAORepository:    45 - User: User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:36 [ INFO]         CarRepositoryImpl:    92 - List with car DTO was get
+2021-05-27 08:36 [ INFO]          CarDAORepository:   130 - Car DTO: [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:36 [TRACE]          SearchCarCommand:    31 - Found in DB: carList --> [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:36 [ INFO]       BrandRepositoryImpl:    33 - List with category was get
+2021-05-27 08:36 [ INFO]     CategoryDAORepository:    43 - Categories: [Category{category='Business'}, Category{category='Standart'}, Category{category='Economy'}]
+2021-05-27 08:36 [ INFO]       BrandRepositoryImpl:    32 - List with bills by order was get
+2021-05-27 08:36 [ INFO]        BrandDAORepository:    44 - Brands: [Brand{brand='BMW'}, Brand{brand='Audi'}, Brand{brand='Mercedes-Benz'}]
+2021-05-27 08:36 [TRACE]          SearchCarCommand:    58 - Set the request attribute: carList --> [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:36 [DEBUG]          SearchCarCommand:    59 - Command finished
+2021-05-27 08:37 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:37 [TRACE]                    Locale:    37 - Session locale--> en
+2021-05-27 08:37 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:37 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:37 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:37 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:37 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:37 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:37 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:37 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:37 [ INFO]         UserDAORepository:    45 - User: User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:37 [ INFO]         CarRepositoryImpl:    92 - List with car DTO was get
+2021-05-27 08:37 [ INFO]          CarDAORepository:   130 - Car DTO: [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:37 [TRACE]          SearchCarCommand:    31 - Found in DB: carList --> [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:37 [ INFO]       BrandRepositoryImpl:    33 - List with category was get
+2021-05-27 08:37 [ INFO]     CategoryDAORepository:    43 - Categories: [Category{category='Business'}, Category{category='Standart'}, Category{category='Economy'}]
+2021-05-27 08:37 [ INFO]       BrandRepositoryImpl:    32 - List with bills by order was get
+2021-05-27 08:37 [ INFO]        BrandDAORepository:    44 - Brands: [Brand{brand='BMW'}, Brand{brand='Audi'}, Brand{brand='Mercedes-Benz'}]
+2021-05-27 08:37 [TRACE]          SearchCarCommand:    58 - Set the request attribute: carList --> [CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}]
+2021-05-27 08:37 [DEBUG]          SearchCarCommand:    59 - Command finished
+2021-05-27 08:37 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:37 [TRACE]                    Locale:    37 - Session locale--> en
+2021-05-27 08:37 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:37 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:37 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:37 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:37 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:37 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:37 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:37 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:37 [ INFO]         UserDAORepository:    45 - User: User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:37 [ INFO]       OrderRepositoryImpl:   104 - Create order: Order{withDriver=false, fromDate=2021-05-28 00:00:00.0, toDate=2021-06-06 00:00:00.0, reasonDeny='null', idCar=3, idStatus=0, idUser=4}
+2021-05-27 08:37 [ INFO]        OrderDAORepository:   176 - 5 null
+2021-05-27 08:37 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:37 [ INFO]         UserDAORepository:    45 - User: User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:37 [ INFO]         CarRepositoryImpl:    92 - List with car DTO was get
+2021-05-27 08:37 [ INFO]          CarDAORepository:   130 - Car DTO: [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:37 [TRACE]          SearchCarCommand:    31 - Found in DB: carList --> [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:37 [ INFO]       BrandRepositoryImpl:    33 - List with category was get
+2021-05-27 08:37 [ INFO]     CategoryDAORepository:    43 - Categories: [Category{category='Business'}, Category{category='Standart'}, Category{category='Economy'}]
+2021-05-27 08:37 [ INFO]       BrandRepositoryImpl:    32 - List with bills by order was get
+2021-05-27 08:37 [ INFO]        BrandDAORepository:    44 - Brands: [Brand{brand='BMW'}, Brand{brand='Audi'}, Brand{brand='Mercedes-Benz'}]
+2021-05-27 08:37 [TRACE]          SearchCarCommand:    58 - Set the request attribute: carList --> [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:37 [DEBUG]          SearchCarCommand:    59 - Command finished
+2021-05-27 08:37 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:37 [TRACE]                    Locale:    37 - Session locale--> en
+2021-05-27 08:37 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:37 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:37 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:37 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:37 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:37 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:37 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:37 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:37 [ INFO]         UserDAORepository:    45 - User: User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:37 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:37 [TRACE]                    Locale:    37 - Session locale--> en
+2021-05-27 08:37 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:37 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:37 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:37 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:37 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:37 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:37 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:37 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:37 [ INFO]         UserDAORepository:    45 - User: User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:37 [ INFO]         CarRepositoryImpl:    92 - List with car DTO was get
+2021-05-27 08:37 [ INFO]          CarDAORepository:   130 - Car DTO: [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:37 [TRACE]          SearchCarCommand:    31 - Found in DB: carList --> [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:37 [ INFO]       BrandRepositoryImpl:    33 - List with category was get
+2021-05-27 08:37 [ INFO]     CategoryDAORepository:    43 - Categories: [Category{category='Business'}, Category{category='Standart'}, Category{category='Economy'}]
+2021-05-27 08:37 [ INFO]       BrandRepositoryImpl:    32 - List with bills by order was get
+2021-05-27 08:37 [ INFO]        BrandDAORepository:    44 - Brands: [Brand{brand='BMW'}, Brand{brand='Audi'}, Brand{brand='Mercedes-Benz'}]
+2021-05-27 08:37 [TRACE]          SearchCarCommand:    58 - Set the request attribute: carList --> [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:37 [DEBUG]          SearchCarCommand:    59 - Command finished
+2021-05-27 08:37 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:37 [TRACE]                    Locale:    37 - Session locale--> en
+2021-05-27 08:37 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:37 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:37 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:37 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:37 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:37 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:37 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:37 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:37 [ INFO]         UserDAORepository:    45 - User: User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:37 [ INFO]       OrderRepositoryImpl:    70 - List with order DTO by user was get
+2021-05-27 08:37 [ INFO]        OrderDAORepository:   112 - Order DTO by status: [nnnocturn.db.dto.OrderDTO@d318b59b]
+2021-05-27 08:37 [ INFO]        BillRepositoryImpl:    55 - List with bills by order was getOrder{withDriver=false, fromDate=null, toDate=null, reasonDeny='null', idCar=0, idStatus=0, idUser=0}
+2021-05-27 08:37 [ INFO]         BillDAORepository:    81 - Bills: []
+2021-05-27 08:38 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:38 [TRACE]                    Locale:    37 - Session locale--> en
+2021-05-27 08:38 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:38 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:38 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:38 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:38 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:38 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:38 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:38 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:38 [ INFO]         UserDAORepository:    45 - User: User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:38 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:38 [TRACE]                    Locale:    37 - Session locale--> en
+2021-05-27 08:38 [TRACE]                    Locale:    46 - Set locale: ru
+2021-05-27 08:38 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:38 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:38 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:38 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:38 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:38 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:38 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:38 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:38 [ INFO]         UserDAORepository:    45 - User: User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:38 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:38 [TRACE]                    Locale:    37 - Session locale--> ru
+2021-05-27 08:38 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:38 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:38 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:38 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:38 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:38 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:38 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:38 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:38 [ INFO]         UserDAORepository:    45 - User: User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:38 [ INFO]         CarRepositoryImpl:    92 - List with car DTO was get
+2021-05-27 08:38 [ INFO]          CarDAORepository:   130 - Car DTO: [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:38 [TRACE]          SearchCarCommand:    31 - Found in DB: carList --> [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:38 [ INFO]       BrandRepositoryImpl:    33 - List with category was get
+2021-05-27 08:38 [ INFO]     CategoryDAORepository:    43 - Categories: [Category{category='Business'}, Category{category='Standart'}, Category{category='Economy'}]
+2021-05-27 08:38 [ INFO]       BrandRepositoryImpl:    32 - List with bills by order was get
+2021-05-27 08:38 [ INFO]        BrandDAORepository:    44 - Brands: [Brand{brand='BMW'}, Brand{brand='Audi'}, Brand{brand='Mercedes-Benz'}]
+2021-05-27 08:38 [TRACE]          SearchCarCommand:    58 - Set the request attribute: carList --> [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:38 [DEBUG]          SearchCarCommand:    59 - Command finished
+2021-05-27 08:38 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:38 [TRACE]                    Locale:    37 - Session locale--> ru
+2021-05-27 08:38 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:38 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:38 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:38 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:38 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:38 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:38 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:38 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:38 [ INFO]         UserDAORepository:    45 - User: User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:38 [ INFO]       OrderRepositoryImpl:    70 - List with order DTO by user was get
+2021-05-27 08:38 [ INFO]        OrderDAORepository:   112 - Order DTO by status: [nnnocturn.db.dto.OrderDTO@d318b59b]
+2021-05-27 08:38 [ INFO]        BillRepositoryImpl:    55 - List with bills by order was getOrder{withDriver=false, fromDate=null, toDate=null, reasonDeny='null', idCar=0, idStatus=0, idUser=0}
+2021-05-27 08:38 [ INFO]         BillDAORepository:    81 - Bills: []
+2021-05-27 08:38 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:38 [TRACE]                    Locale:    37 - Session locale--> ru
+2021-05-27 08:38 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:38 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:38 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:38 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:38 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:38 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:38 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:38 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:38 [ INFO]         UserDAORepository:    45 - User: User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:38 [ INFO]         CarRepositoryImpl:    92 - List with car DTO was get
+2021-05-27 08:38 [ INFO]          CarDAORepository:   130 - Car DTO: [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:38 [TRACE]          SearchCarCommand:    31 - Found in DB: carList --> [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:38 [ INFO]       BrandRepositoryImpl:    33 - List with category was get
+2021-05-27 08:38 [ INFO]     CategoryDAORepository:    43 - Categories: [Category{category='Business'}, Category{category='Standart'}, Category{category='Economy'}]
+2021-05-27 08:38 [ INFO]       BrandRepositoryImpl:    32 - List with bills by order was get
+2021-05-27 08:38 [ INFO]        BrandDAORepository:    44 - Brands: [Brand{brand='BMW'}, Brand{brand='Audi'}, Brand{brand='Mercedes-Benz'}]
+2021-05-27 08:38 [TRACE]          SearchCarCommand:    58 - Set the request attribute: carList --> [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:38 [DEBUG]          SearchCarCommand:    59 - Command finished
+2021-05-27 08:38 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:38 [TRACE]                    Locale:    37 - Session locale--> ru
+2021-05-27 08:38 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:38 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:38 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:38 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:38 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:38 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:38 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:38 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:38 [ INFO]         UserDAORepository:    45 - User: User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:38 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:38 [TRACE]                    Locale:    37 - Session locale--> null
+2021-05-27 08:38 [TRACE]                    Locale:    41 - Set default locale: en
+2021-05-27 08:38 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:38 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:38 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:38 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:38 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:38 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:38 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:38 [TRACE]              LogInCommand:    30 - Request parameter: login --> lammer2105
+2021-05-27 08:38 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='lammer2105', password='null', idStatus=0, idRole=0, firstName='null', lastName='null', age=0}
+2021-05-27 08:38 [ INFO]         UserDAORepository:    45 - User: User{login='lammer2105', password='null', idStatus=0, idRole=0, firstName='null', lastName='null', age=0}
+2021-05-27 08:38 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:38 [TRACE]                    Locale:    37 - Session locale--> en
+2021-05-27 08:38 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:38 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:38 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:38 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:38 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:38 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:38 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:38 [TRACE]              LogInCommand:    30 - Request parameter: login --> lammer2105
+2021-05-27 08:38 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='lammer2105', password='null', idStatus=0, idRole=0, firstName='null', lastName='null', age=0}
+2021-05-27 08:38 [ INFO]         UserDAORepository:    45 - User: User{login='lammer2105', password='null', idStatus=0, idRole=0, firstName='null', lastName='null', age=0}
+2021-05-27 08:38 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:38 [TRACE]                    Locale:    37 - Session locale--> en
+2021-05-27 08:38 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:38 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:38 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:38 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:38 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:38 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:38 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:38 [TRACE]              LogInCommand:    30 - Request parameter: login --> admin
+2021-05-27 08:38 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='admin', password='null', idStatus=0, idRole=0, firstName='null', lastName='null', age=0}
+2021-05-27 08:38 [ INFO]         UserDAORepository:    45 - User: User{login='admin', password='null', idStatus=0, idRole=0, firstName='null', lastName='null', age=0}
+2021-05-27 08:39 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:39 [TRACE]                    Locale:    37 - Session locale--> en
+2021-05-27 08:39 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:39 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:39 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:39 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:39 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:39 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:39 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:39 [TRACE]              LogInCommand:    30 - Request parameter: login --> lammer2105
+2021-05-27 08:39 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='lammer2105', password='null', idStatus=0, idRole=0, firstName='null', lastName='null', age=0}
+2021-05-27 08:39 [ INFO]         UserDAORepository:    45 - User: User{login='lammer2105', password='null', idStatus=0, idRole=0, firstName='null', lastName='null', age=0}
+2021-05-27 08:39 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:39 [TRACE]                    Locale:    37 - Session locale--> en
+2021-05-27 08:39 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:39 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:39 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:39 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:39 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:39 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:39 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:39 [TRACE]              LogInCommand:    30 - Request parameter: login --> lammer2105
+2021-05-27 08:39 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='lammer2105', password='null', idStatus=0, idRole=0, firstName='null', lastName='null', age=0}
+2021-05-27 08:39 [ INFO]         UserDAORepository:    45 - User: User{login='lammer2105', password='null', idStatus=0, idRole=0, firstName='null', lastName='null', age=0}
+2021-05-27 08:39 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:39 [TRACE]                    Locale:    37 - Session locale--> en
+2021-05-27 08:39 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:39 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:39 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:39 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:39 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:39 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:39 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:39 [TRACE]              LogInCommand:    30 - Request parameter: login --> pavel
+2021-05-27 08:39 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='pavel', password='null', idStatus=0, idRole=0, firstName='null', lastName='null', age=0}
+2021-05-27 08:39 [ INFO]         UserDAORepository:    45 - User: User{login='pavel', password='null', idStatus=0, idRole=0, firstName='null', lastName='null', age=0}
+2021-05-27 08:39 [TRACE]              LogInCommand:    48 - userRole --> CLIENT
+2021-05-27 08:39 [TRACE]              LogInCommand:    50 - userStatus --> UNBUNNED
+2021-05-27 08:39 [TRACE]              LogInCommand:    68 - Set the session attribute: user --> User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:39 [TRACE]              LogInCommand:    71 - Set the session attribute: userRole --> CLIENT
+2021-05-27 08:39 [ INFO]              LogInCommand:    72 - User User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19} logged as client
+2021-05-27 08:39 [DEBUG]              LogInCommand:    73 - Command finished
+2021-05-27 08:39 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:39 [ INFO]         UserDAORepository:    45 - User: User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:39 [ INFO]         CarRepositoryImpl:    92 - List with car DTO was get
+2021-05-27 08:39 [ INFO]          CarDAORepository:   130 - Car DTO: [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:39 [TRACE]          SearchCarCommand:    31 - Found in DB: carList --> [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:39 [ INFO]       BrandRepositoryImpl:    33 - List with category was get
+2021-05-27 08:39 [ INFO]     CategoryDAORepository:    43 - Categories: [Category{category='Business'}, Category{category='Standart'}, Category{category='Economy'}]
+2021-05-27 08:39 [ INFO]       BrandRepositoryImpl:    32 - List with bills by order was get
+2021-05-27 08:39 [ INFO]        BrandDAORepository:    44 - Brands: [Brand{brand='BMW'}, Brand{brand='Audi'}, Brand{brand='Mercedes-Benz'}]
+2021-05-27 08:39 [TRACE]          SearchCarCommand:    58 - Set the request attribute: carList --> [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:39 [DEBUG]          SearchCarCommand:    59 - Command finished
+2021-05-27 08:39 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:39 [TRACE]                    Locale:    37 - Session locale--> en
+2021-05-27 08:39 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:39 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:39 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:39 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:39 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:39 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:39 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:39 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:39 [ INFO]         UserDAORepository:    45 - User: User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:39 [ INFO]         CarRepositoryImpl:    92 - List with car DTO was get
+2021-05-27 08:39 [ INFO]          CarDAORepository:   130 - Car DTO: [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:39 [TRACE]          SearchCarCommand:    31 - Found in DB: carList --> [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:39 [ INFO]       BrandRepositoryImpl:    33 - List with category was get
+2021-05-27 08:39 [ INFO]     CategoryDAORepository:    43 - Categories: [Category{category='Business'}, Category{category='Standart'}, Category{category='Economy'}]
+2021-05-27 08:39 [ INFO]       BrandRepositoryImpl:    32 - List with bills by order was get
+2021-05-27 08:39 [ INFO]        BrandDAORepository:    44 - Brands: [Brand{brand='BMW'}, Brand{brand='Audi'}, Brand{brand='Mercedes-Benz'}]
+2021-05-27 08:39 [TRACE]          SearchCarCommand:    58 - Set the request attribute: carList --> [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:39 [DEBUG]          SearchCarCommand:    59 - Command finished
+2021-05-27 08:39 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-27 08:39 [TRACE]                    Locale:    37 - Session locale--> en
+2021-05-27 08:39 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-27 08:39 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-27 08:39 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-27 08:39 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-27 08:39 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-27 08:39 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-27 08:39 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-27 08:39 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:39 [ INFO]         UserDAORepository:    45 - User: User{login='pavel', password='root', idStatus=1, idRole=3, firstName='Pavel', lastName='Mikush', age=19}
+2021-05-27 08:39 [ INFO]         CarRepositoryImpl:    92 - List with car DTO was get
+2021-05-27 08:39 [ INFO]          CarDAORepository:   130 - Car DTO: [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:39 [TRACE]          SearchCarCommand:    31 - Found in DB: carList --> [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:39 [ INFO]       BrandRepositoryImpl:    33 - List with category was get
+2021-05-27 08:39 [ INFO]     CategoryDAORepository:    43 - Categories: [Category{category='Business'}, Category{category='Standart'}, Category{category='Economy'}]
+2021-05-27 08:39 [ INFO]       BrandRepositoryImpl:    32 - List with bills by order was get
+2021-05-27 08:39 [ INFO]        BrandDAORepository:    44 - Brands: [Brand{brand='BMW'}, Brand{brand='Audi'}, Brand{brand='Mercedes-Benz'}]
+2021-05-27 08:39 [TRACE]          SearchCarCommand:    58 - Set the request attribute: carList --> [CarDTO{model='AMG GT 63 S', brand='Mercedes-Benz', cost=180.98, category='Business'}, CarDTO{model='A8', brand='Audi', cost=160.21, category='Business'}, CarDTO{model='M5', brand='BMW', cost=150.23, category='Business'}, CarDTO{model='E350', brand='Mercedes-Benz', cost=130.5, category='Standart'}, CarDTO{model='A5', brand='Audi', cost=140.1, category='Standart'}, CarDTO{model='X5', brand='BMW', cost=130.53, category='Standart'}, CarDTO{model='E220', brand='Mercedes-Benz', cost=100.0, category='Economy'}, CarDTO{model='A3', brand='Audi', cost=120.23, category='Economy'}, CarDTO{model='318', brand='BMW', cost=110.28, category='Economy'}]
+2021-05-27 08:39 [DEBUG]          SearchCarCommand:    59 - Command finished
+2021-05-27 08:43 [DEBUG]                    Locale:    25 - Filter destruction starts
+2021-05-27 08:43 [DEBUG]                    Locale:    26 - Filter destruction ends
+2021-05-27 08:43 [DEBUG]            EncodingFilter:    18 - Filter destruction starts
+2021-05-27 08:43 [DEBUG]            EncodingFilter:    19 - Filter destruction ends
+2021-05-27 08:43 [DEBUG]       CommandAccessFilter:    61 - Filter destruction starts
+2021-05-27 08:43 [DEBUG]       CommandAccessFilter:    62 - Filter ends

@@ -1,0 +1,34 @@
+2021-05-13 17:19 [DEBUG]                    Locale:    59 - Filter initialization starts
+2021-05-13 17:19 [DEBUG]                    Locale:    63 - Filter initialization ends
+2021-05-13 17:19 [DEBUG]            EncodingFilter:    41 - Filter initialization starts
+2021-05-13 17:19 [TRACE]            EncodingFilter:    43 - Encoding from web.xml --> UTF-8
+2021-05-13 17:19 [DEBUG]            EncodingFilter:    44 - Filter initialization ends
+2021-05-13 17:19 [DEBUG]       CommandAccessFilter:    28 - Filter initialization starts
+2021-05-13 17:19 [TRACE]       CommandAccessFilter:    36 - Access map --> {ADMIN=[updateUserStatus, addManager, deleteCar, updateCar, addCar, adminPanel], CLIENT=[makeOrder, searchCar, orderClientList, payOrder, returnCar], MANAGER=[checkCar, acceptCar, listOrders, treatmentOrder]}
+2021-05-13 17:19 [TRACE]       CommandAccessFilter:    37 - Common commands --> [logout, noCommand, viewSettings, settingsChange, changeLocale]
+2021-05-13 17:19 [TRACE]       CommandAccessFilter:    38 - Out of control commands --> [login, registration, registrationView, loginView]
+2021-05-13 17:19 [DEBUG]       CommandAccessFilter:    39 - Filter initialization ends
+2021-05-13 17:19 [DEBUG]                    Locale:    30 - Filter starts
+2021-05-13 17:19 [TRACE]                    Locale:    37 - Session locale--> null
+2021-05-13 17:19 [TRACE]                    Locale:    41 - Set default locale: en
+2021-05-13 17:19 [DEBUG]                    Locale:    54 - Filter ends
+2021-05-13 17:19 [DEBUG]            EncodingFilter:    25 - Filter starts
+2021-05-13 17:19 [TRACE]            EncodingFilter:    28 - Request uri --> /rentalcar/controller
+2021-05-13 17:19 [TRACE]            EncodingFilter:    32 - Request encoding = null, set encoding --> UTF-8
+2021-05-13 17:19 [DEBUG]            EncodingFilter:    36 - Filter ends
+2021-05-13 17:19 [DEBUG]       CommandAccessFilter:    46 - Filter starts
+2021-05-13 17:19 [DEBUG]       CommandAccessFilter:    47 - Filter ends
+2021-05-13 17:19 [DEBUG]                Controller:    39 - Controller starts
+2021-05-13 17:19 [TRACE]                Controller:    65 - Request parameter: command --> login
+2021-05-13 17:19 [TRACE]                Controller:    42 - Obtained command --> LogInCommand
+2021-05-13 17:19 [TRACE]              LogInCommand:    30 - Request parameter: login --> nnnocturn
+2021-05-13 17:20 [ INFO]        UserRepositoryImpl:    35 - User was getUser{login='nnnocturn', password='null', idStatus=0, idRole=0, firstName='null', lastName='null', age=0}
+2021-05-13 17:20 [ INFO]         UserDAORepository:    45 - User: User{login='nnnocturn', password='null', idStatus=0, idRole=0, firstName='null', lastName='null', age=0}
+2021-05-13 17:20 [TRACE]                Controller:    50 - Forward address--> /index.jsp
+2021-05-13 17:20 [DEBUG]                Controller:    54 - Go to forward address-->/index.jsp
+2021-05-13 17:21 [DEBUG]                    Locale:    25 - Filter destruction starts
+2021-05-13 17:21 [DEBUG]                    Locale:    26 - Filter destruction ends
+2021-05-13 17:21 [DEBUG]            EncodingFilter:    18 - Filter destruction starts
+2021-05-13 17:21 [DEBUG]            EncodingFilter:    19 - Filter destruction ends
+2021-05-13 17:21 [DEBUG]       CommandAccessFilter:    61 - Filter destruction starts
+2021-05-13 17:21 [DEBUG]       CommandAccessFilter:    62 - Filter ends
